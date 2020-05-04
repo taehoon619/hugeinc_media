@@ -1,0 +1,369 @@
+@media screen and (max-width:767px) {
+    /* 로고 */
+
+#logo {
+    width: 60px;
+    height: 60px;
+     justify-content: center;
+     align-items: center;
+     font-family: HugeGothic-Bold,
+     Arial,
+     Helvetica,
+     sans-serif;
+     font-size: 32px;
+     color: #ea178c;
+     background-color: white;
+     position: fixed;
+     top: 25px;
+     left: calc(50% - 37px);
+     z-index: 300;
+     padding-top: 4px;
+     box-sizing: border-box;
+     background: linear-gradient(315deg, #ea178c, #ea178c, #ffffff, #ffffff, #ea178c, #ea178c, #ffffff, #ffffff, #ffffff);
+     background-size: 800% 800%;
+     animation: logo_animation 2s;
+     animation-iteration-count: 1;
+}
+header {
+    width: 100%;
+    height: 80%;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+}
+
+.menu_wrap {
+    width: 1050px;
+    height: 100%;
+    padding: 70px 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.menu_wrap li {
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu_wrap li a {
+    font-family: HugeGothic-Bold;
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+}
+
+.menu_wrap li a:hover {
+    color: #ea178c;
+    cursor: pointer;
+}
+
+.menu_wrap li p {
+    width: 30%;
+    font-family: Galaxie-Book;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: right;
+}
+
+.menu_line1 {
+    display: none;
+}
+
+
+.menu_line2 {
+    width: 70%;
+    background-color: #000;
+    border: none;
+    border-color: transparent;
+    border-image: none;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    height: 1px;
+    margin: 0 8px ;
+    display: block;
+}
+
+.gnb_aside {
+    width: 340px;
+    height: 22px;
+    position: absolute;
+    top: 350px;
+    left: calc(50vw - 160px);
+    display: flex;
+    justify-content: center;
+}
+
+.gnb_aside p {
+    font-family: Galaxie-Book;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: -1px;
+}
+
+.gnb_aside a {
+    font-family: HugeGothic-Bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 6px;
+    padding-top: 1px;
+}
+
+
+    /* 컨텐츠 */
+.hello_title { 
+    display: none;
+}
+
+.hi_title {
+    font-size: 200px;  
+    display: block;
+    margin-top: 100px;
+}
+/* 배경 */ 
+
+.home_01_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc4.jpg);
+    background-size: cover;
+}
+
+.home_01_02_wrap {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hugeinc16.png);
+    box-sizing: border-box;
+    background-size: cover;
+    display: flex;
+}
+
+.home_01_03_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc6.jpg);
+    background-size: cover;
+}
+
+.home_01_04_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc14png.png);
+    background-size: cover;
+}
+
+.home_01_05_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc6.jpg);
+    background-size: cover;
+}
+
+.home_01_06_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc8.jpg);
+    background-size: cover;
+}
+
+.home_01_07_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc5.jpg);
+    background-size: contain;
+    
+}
+
+/* 홈 인덱스 */
+.home_01_index {
+    display: none;
+}
+
+.home_01_index_wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home_01_index_wrap > p {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.home_01_content {
+    width: 100%;
+    height: 100%;
+    padding: 20vh 5vh 5vh 5vh;
+    box-sizing: border-box;
+}
+
+.home_01_content_wrap {
+    width: 80%;
+    height: 60vh;
+}
+
+.content_top_m {
+    display: flex;
+}
+
+.content_top_m p {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.index_line_white_1 {
+    width: 12%;
+    border-bottom: 1px solid white;
+    height: 5px;
+    margin-right: 5%;
+    display: block;
+}
+
+.index_line_black_1 {
+    width: 12%;
+    border-bottom: 1px solid black;
+    height: 5px;
+    margin-right: 5%;
+    display: block;
+}
+
+
+/*
+.home_01_content_wrap>p {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+*/
+
+
+.home_01_index_subwrap {
+    width: 100%;
+    height: calc(100% - 22px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.home_01_index_subwrap>h2 {
+    font-family: HugeGothic-Bold;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.line_black {
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin: 3% 0;
+}
+
+.line_white {
+    border-bottom: 1px solid white;
+    width: 25%;
+    margin: 3% 0;
+}
+
+
+.home_01_index_subwrap>p {
+    font-family: Galaxie-Book;
+    font-size: 18px;
+    line-height: 34px;
+    width: 100%;
+    letter-spacing: -0.27504px;
+}
+
+
+
+/* footer 시작 */
+
+.home_footer {
+    width: 100%;
+    padding: 50px 0 80px;
+    box-sizing: border-box;
+}
+ /* wrap */
+.home_footer>div {
+    width: 100%;
+    height: 90px;
+    padding: 0 calc(12.5vw + 15px);
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.footer_content_left {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.footer_content_left>div {
+    font-size: 28px;
+}
+
+.footer_content_left>p {
+    font-family: HugeGothic-Bold;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+
+.footer_content_right>div {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #c8c8c8;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.footer_aside {
+    text-align: left;
+}
+
+
+}
+
