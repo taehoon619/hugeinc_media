@@ -282,13 +282,23 @@ h5 {
 }
 
 @keyframes logo_header_off {
-    from { height: 0px;}
-    to {height: 440px; }
+    from { height: 440px;}
+    to {height: 0px; }
+}
+
+@keyframes logo_header_m_open {
+    from {height: 0px;}
+    to {height: 80vh;}
+}
+
+@keyframes logo_header_m_off {
+    from {height: 80vh;}
+    to {height: 0px;}
 }
 
 header {
     width: 100%;
-    height: ;
+    height: 0px;
     display: block;
     position: fixed;
     left: 0;
@@ -329,6 +339,24 @@ nav {
     background-size: 800% 800%;
     animation: logo_animation 2s;
     animation-iteration-count: 1;
+}
+#logo_open {
+    width: 120px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: HugeGothic-Bold, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #ea178c;
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 50px;
+    left: calc(50% - 60px);
+    z-index: 300;
+    padding-top: 4px;
+    box-sizing: border-box;
+    display: none;
 }
 
 @keyframes logo_animation {

@@ -1,33 +1,118 @@
+@media screen and (min-width:767px) and (max-width:999px) {
+.menu_wrap {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hello_title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18.75rem;
+    font-weight: 600;
+    display: block;
+}
+
+.menu_wrap li {
+    width: 20%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer 시작 */
+
+.home_footer {
+    width: 100%;
+    padding: 50px 0 80px;
+    box-sizing: border-box;
+}
+
+.home_footer>div {
+    width: 100%;
+    height: 90px;
+    padding: 0 calc(12.5vw + 15px);
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.footer_content_left {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.footer_content_left>div {
+    font-size: 28px;
+}
+
+.footer_content_left>p {
+    font-family: HugeGothic-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+
+.footer_content_right>div {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #c8c8c8;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.footer_aside {
+    text-align: left;
+}
+
+
+
+}
+
 @media screen and (max-width:767px) {
     /* 로고 */
 
 #logo {
     width: 60px;
     height: 60px;
-     justify-content: center;
-     align-items: center;
-     font-family: HugeGothic-Bold,
-     Arial,
-     Helvetica,
-     sans-serif;
-     font-size: 32px;
-     color: #ea178c;
-     background-color: white;
-     position: fixed;
-     top: 25px;
-     left: calc(50% - 37px);
-     z-index: 300;
-     padding-top: 4px;
-     box-sizing: border-box;
-     background: linear-gradient(315deg, #ea178c, #ea178c, #ffffff, #ffffff, #ea178c, #ea178c, #ffffff, #ffffff, #ffffff);
-     background-size: 800% 800%;
-     animation: logo_animation 2s;
-     animation-iteration-count: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: HugeGothic-Bold,
+    Arial,
+    Helvetica,
+    sans-serif;
+    font-size: 32px;
+    color:#ea178c;
+    position: fixed;
+    background-color: white;
+    position: fixed;
+    top: 25px;
+    left: calc(50% - 37px);
+    z-index: 300;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background: linear-gradient(315deg, #ea178c, #ea178c, #ffffff, #ffffff, #ea178c, #ea178c, #ffffff, #ffffff, #ffffff);
+    background-size: 800% 800%;
+    animation: logo_animation 2s;
+    animation-iteration-count: 1;
 }
 header {
     width: 100%;
-    height: 80%;
+    height: 0px;
+    transition: height 200ms;
 }
+
 
 nav {
     width: 100%;
@@ -35,9 +120,9 @@ nav {
 }
 
 .menu_wrap {
-    width: 1050px;
+    width: 100%;
     height: 100%;
-    padding: 70px 50px 0;
+    padding: 70px 50px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center
@@ -46,7 +131,7 @@ nav {
 .menu_wrap li {
     width: 100%;
     height: 20px;
-    margin: 10px 0;
+    margin: 20px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -64,14 +149,15 @@ nav {
     cursor: pointer;
 }
 
+
 .menu_wrap li p {
-    width: 30%;
     font-family: Galaxie-Book;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 100;
     line-height: 20px;
     letter-spacing: -1px;
     text-align: right;
+    white-space: nowrap;
 }
 
 .menu_line1 {
@@ -80,15 +166,13 @@ nav {
 
 
 .menu_line2 {
-    width: 70%;
     background-color: #000;
     border: none;
     border-color: transparent;
     border-image: none;
-    -ms-flex-positive: 2;
     flex-grow: 2;
     height: 1px;
-    margin: 0 8px ;
+    margin: 0 10px ;
     display: block;
 }
 
@@ -96,7 +180,7 @@ nav {
     width: 340px;
     height: 22px;
     position: absolute;
-    top: 350px;
+    top: 550px;
     left: calc(50vw - 160px);
     display: flex;
     justify-content: center;
@@ -139,6 +223,7 @@ nav {
     background-image:
         url(../img/hugeinc4.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .home_01_02_wrap {
@@ -148,6 +233,7 @@ nav {
     box-sizing: border-box;
     background-size: cover;
     display: flex;
+    background-position: center;
 }
 
 .home_01_03_wrap {
@@ -156,8 +242,9 @@ nav {
     box-sizing: border-box;
     display: flex;
     background-image:
-        url(../img/hugeinc6.jpg);
+        url(../img/hugeinc10_m.png);
     background-size: cover;
+    background-position: center;
 }
 
 .home_01_04_wrap {
@@ -168,6 +255,7 @@ nav {
     background-image:
         url(../img/hugeinc14png.png);
     background-size: cover;
+    background-position: center;
 }
 
 .home_01_05_wrap {
@@ -176,7 +264,7 @@ nav {
     box-sizing: border-box;
     display: flex;
     background-image:
-        url(../img/hugeinc6.jpg);
+        url(../img/hugeinc2_m.jpg);
     background-size: cover;
 }
 
@@ -188,6 +276,7 @@ nav {
     background-image:
         url(../img/hugeinc8.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .home_01_07_wrap {
@@ -197,8 +286,8 @@ nav {
     display: flex;
     background-image:
         url(../img/hugeinc5.jpg);
-    background-size: contain;
-    
+    background-size: cover;
+    background-position: center;
 }
 
 /* 홈 인덱스 */
@@ -320,7 +409,7 @@ nav {
     padding: 50px 0 80px;
     box-sizing: border-box;
 }
- /* wrap */
+
 .home_footer>div {
     width: 100%;
     height: 90px;
@@ -344,7 +433,8 @@ nav {
 .footer_content_left>p {
     font-family: HugeGothic-Bold;
     font-size: 16px;
-    line-height: 36px;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -367,3 +457,86 @@ nav {
 
 }
 
+@media screen and (max-width:400px) {
+.gnb_aside {
+    width: 340px;
+    height: 22px;
+    position: absolute;
+    top: 550px;
+    left: calc(50vw - 160px);
+    display: flex;
+    justify-content: center;
+}
+
+.gnb_aside p {
+    font-family: Galaxie-Book;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: -1px;
+}
+
+.gnb_aside a {
+    font-family: HugeGothic-Bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 6px;
+    padding-top: 1px;
+}
+
+
+
+
+    /* footer 시작 */
+
+.home_footer {
+    width: 100%;
+    padding: 10px 0 80px;
+    box-sizing: border-box;
+}
+
+.home_footer>div {
+    width: 100%;
+    height: 40px;
+    padding: 0 calc(12.5vw + 15px);
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.footer_content_left {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.footer_content_left>div {
+    font-size: 28px;
+}
+
+.footer_content_left>p {
+    font-family: HugeGothic-Bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.footer_content_right>div {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #c8c8c8;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.footer_aside {
+    text-align: left;
+}
+
+
+}
