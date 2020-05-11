@@ -1,5 +1,5 @@
 .hero_video {
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     position: relative;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 .hero_video video {
-      min-width: 100vw;
+      min-width: 100%;
       min-height: 80vh;
       position: absolute;
       border: none;
@@ -19,7 +19,7 @@
 
 
 .work_02 {
-    width: 100vw;
+    width: 100%;
     height: 210px;
     display: flex;
     justify-content: center;
@@ -35,11 +35,29 @@
     padding: 0;
     margin: 0;
 }
+.work_02_1 {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -4px;
+    line-height: 70px;
+    font-family: Galaxie-Book;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display:none;
+}
     
 
 .work_03 {
     background-color: black;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 95px;
 }
 
@@ -150,7 +168,7 @@
 /* work 04 */
 .work_04 {
     background-color: #111111;
-    width: 100%vw;
+    width: 100%;
     height: 100vh;
     padding: 140px 0;
 }
@@ -208,7 +226,7 @@
 
     /* 05 */
     .work_05 {
-        width: 100vw;
+        width: 100%;
         background-image: url(../img/9.jpg);
         background-size: cover;
         position: relative;
@@ -222,7 +240,7 @@
         */
     
     .work_05_wrap {
-        width: 100vw;
+        width: 100%;
         display: flex;
         align-items: center;
     }
