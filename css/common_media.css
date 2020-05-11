@@ -99,6 +99,24 @@
         animation: logo_animation 2s;
         animation-iteration-count: 1;
     }
+    #logo_open {
+        width: 120px;
+        height: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: HugeGothic-Bold, Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        color: #ea178c;
+        background-color: #f4f4f4;
+        position: fixed;
+        top: 20px;
+        left: calc(50% - 60px);
+        z-index: 300;
+        padding-top: 4px;
+        box-sizing: border-box;
+        display: none;
+    }
 
     header {
         width: 100%;
@@ -115,7 +133,7 @@
     .menu_wrap {
         width: 100%;
         height: 100%;
-        padding: 120px 50px 10px;
+        padding: 80px 50px 10px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start
@@ -124,7 +142,7 @@
     .menu_wrap li {
         width: 100%;
         height: 20px;
-        margin: 20px 0;
+        margin: 5px 0;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -173,7 +191,7 @@
         width: 340px;
         height: 22px;
         position: absolute;
-        top: 450px;
+        top: 230px;
         left: calc(50vw - 160px);
         display: flex;
         justify-content: center;
@@ -185,14 +203,6 @@
         font-weight: 100;
         line-height: 22px;
         letter-spacing: -1px;
-    }
-
-    .gnb_aside a {
-        font-family: HugeGothic-Bold;
-        font-size: 18px;
-        line-height: 21px;
-        margin-left: 6px;
-        padding-top: 1px;
     }
 
 
