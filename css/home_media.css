@@ -11,7 +11,7 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 18.75rem;
+    font-size: 200px;
     font-weight: 600;
     display: block;
 }
@@ -122,10 +122,10 @@ nav {
 .menu_wrap {
     width: 100%;
     height: 100%;
-    padding: 70px 50px 100px;
+    padding: 120px 50px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: flex-start
 }
 
 .menu_wrap li {
@@ -490,24 +490,42 @@ nav {
     position: absolute;
     top: 280px;
     left: calc(50vw - 160px);
-    display: flex;
+    display: none;
     justify-content: center;
 }
+.gnb_aside2 {
+    width: 340px;
+    height: 22px;
+    position: absolute;
+    top: 280px;
+    left: calc(50vw - 160px);
+    display: block;
+    display: flex;
+    justify-content: center;
+    
+}
 
-.gnb_aside p {
+.gnb_aside2 p {
     font-family: Galaxie-Book;
     font-size: 16px;
     font-weight: 100;
     line-height: 22px;
     letter-spacing: -1px;
+    text-align: center;
 }
 
-.gnb_aside a {
+.gnb_aside2 a {
     font-family: HugeGothic-Bold;
     font-size: 18px;
     line-height: 21px;
     margin-left: 6px;
     padding-top: 1px;
+}
+
+.hi_title {
+    font-size: 150px;
+    display: block;
+    margin-top: 100px;
 }
 
 

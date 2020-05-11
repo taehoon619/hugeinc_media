@@ -421,6 +421,15 @@ nav {
     display: flex;
     justify-content: center;
 }
+.gnb_aside2 {
+    width: 320px;
+    height: 22px;
+    position: absolute;
+    top: 350px;
+    left: calc(50vw - 160px);
+    display: none;
+    justify-content: center;
+}
 
 .gnb_aside p {
     font-family: Galaxie-Book;
