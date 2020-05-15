@@ -1,5 +1,5 @@
 .hero {
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@
 
 /* hello */
 .contact_hello {
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
     background-color: black;
 }
@@ -95,7 +95,7 @@
 /* contact_list */
 
 .contact_list {
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 
@@ -124,10 +124,11 @@
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.contact_list li:last-child(1) {
+.nono1 {
     background-color: black;
 }
-.contact_list li:last-child(2) {
+
+.nono2 {
     background-color: black;
 }
 
@@ -149,6 +150,7 @@
     position: absolute;
     bottom: 30px;
     right: 35px;
+
 }
 
 .circle {
@@ -161,7 +163,7 @@
 
 /* 05 */
 .work_05 {
-    width: 100vw;
+    width: 100%;
     background-image: url(../img/contact/huge_magenta_03.png);
     background-size: cover;
     position: relative;
@@ -177,7 +179,7 @@
     */
 
 .work_05_wrap {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
 }
