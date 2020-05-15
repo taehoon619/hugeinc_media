@@ -181,8 +181,8 @@
     <section class="contact_list">
         <div class="contact_list_container">
             <ul>
-                <li>
-                    <a href="atlanta.html" id="office_card">
+                <li id="office_card">
+                    <a href="atlanta.html">
                         <h4>Atlanta.</h4>
                         <p class="p_huge p_shot">Ayee.</p>
                         <p id="present_time">11:43 AM</p>
@@ -389,7 +389,7 @@
         } else { amPm ="PM"
             if(presentHour != 12) {
             presentHour = presentHour - 12;}
-            document.getElementById("office_card").style = "background-color: #161616; color:white;"
+            document.getElementById("office_card").style = "background-color: black; color:white;"
             document.getElementById("present_time").innerHTML =
             presentHour + ":" + presentMin + " " + amPm;
             document.getElementById("sun_or_moon").src = "img/moon-01.svg"
