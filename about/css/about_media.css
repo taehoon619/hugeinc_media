@@ -12,6 +12,7 @@
         width: 83.05085%;
         font-size: 104px;
         height: calc(80vh - 200px);
+        line-height: 91px;
     }
 
     /* about_us */
@@ -286,6 +287,7 @@
 .hero_title {
         width: 83.05085%;
         font-size: 60px;
+        height: calc(70vh - 200px);
     }
 
     /* about_us */
@@ -570,6 +572,7 @@
 
         .work_05_right h2 {
             font-size: 40px;
+            line-height: 42px;
             margin-top: 50px;
         }
 
