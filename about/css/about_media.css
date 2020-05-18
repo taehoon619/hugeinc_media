@@ -305,13 +305,13 @@
     }
 
     .section_subtitle {
-        min-width: 48.97959%;
+        min-width: 82.75862%;
         padding-top: 0;
         margin-bottom: 50px;
     }
 
     .section_subtitle_rule_b {
-        width: 30.5%;
+        width: 37.5%;
     }
 
     .section_subtitle h6 {
@@ -348,12 +348,12 @@
     }
 
     .section_subtitle_nopadding {
-        width: 48.97959%;
+        width: 82.75862%;
         margin-bottom: 50px;
     }
 
     .section_subtitle_rule_w {
-        width: 47.36842%;
+        width: 37.5%;
         border-top: 1px solid white;
         margin-bottom: 20px;
     }
@@ -444,12 +444,20 @@
         margin-left: 0;
     }
 
+    .none {
+        display: none;
+    }
+
     .culture_title_list li:nth-child(4n+1) {
         margin-left: 0;
     }
 
     .culture_title_list h5 {
         font-size: 21px;
+    }
+
+    .our_culture_background img {
+        display: none;
     }
 
     /* our office */
@@ -464,11 +472,11 @@
     }
 
     .section_subtitle_offices {
-        width: 32.20339%;
+        width: 82.75862%;
     }
 
     .section_subtitle_rule_wi {
-        width: 47.36842%;
+        width: 37.5%;
     }
 
     .our_offices_container h6 {
@@ -484,12 +492,12 @@
     }
 
     .our_offices_list li:nth-child(2n) {
-        width: 48.97959%;
-        margin-left: 2.04082%;
+        width: 100%;
+        margin-left: 0;
     }
 
     .our_offices_list li {
-        width: 48.97959%;
+        width: 100%;
         margin-left: 0;
     }
 
@@ -501,16 +509,16 @@
     .our_leadership_container {
         width: 83.05085%;
         margin: 0 auto;
-        padding: 100px 0;
+        padding: 60px 0;
     }
 
     .section_subtitle_leadership {
-        width: 32.20339%;
+        width: 82.75862%;
     }
 
     .our_leadership_container h6 {
         margin-bottom: 50px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .our_leadership_list {
@@ -521,10 +529,32 @@
     }
 
     .our_leadership_list li {
-        padding-top: 40px;
-        flex: 0 0 30%;
+        width: ;
+        padding-top: 20px;
+        flex: 0 0 100%;
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         margin-right: 3px;
+    }
+.our_leadership_list li h5 {
+    font-size: 19px;
+}
+
+    .our_leadership_list p {
+        color: #000;
+        opacity: 0.5;
+        margin-bottom: 25px;
+    }
+
+    .our_leadership_list li:nth-last-child(1) {
+        border-bottom: none;
+    }
+
+    .our_leadership_list li:nth-last-child(2) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .our_leadership_list li:nth-last-child(3) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     }
 
     .our_leadership_list h5 {
