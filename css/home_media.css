@@ -1,12 +1,16 @@
 @media screen and (min-width:767px) and (max-width:999px) {
 
 .hello_title {
-    width: 100%;
-    height: auto;
+    width: 680px;
+
     text-align: center;
-    font-size: 200px;
+    font-size: 250px;
     font-weight: 600;
     display: block;
+}
+
+.hi_title {
+    display: none;
 }
 
 
@@ -21,6 +25,7 @@
 }
 
 .hi_title {
+    width: 100%;
     font-size: 200px;  
     display: block;
     margin-top: 100px;
@@ -194,13 +199,13 @@
 .line_black {
     border-bottom: 1px solid black;
     width: 25%;
-    margin: 3% 0;
+    margin: 5% 0;
 }
 
 .line_white {
     border-bottom: 1px solid white;
     width: 25%;
-    margin: 3% 0;
+    margin: 5% 0;
 }
 
 
