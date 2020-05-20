@@ -120,7 +120,7 @@
     position: relative;
 }
 
-.contact_list li:hover {
+.contact_card:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.4);
 }
