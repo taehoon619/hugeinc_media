@@ -1,0 +1,238 @@
+@media screen and (min-width:767px) and (max-width:999px) {
+
+.hello_title {
+    width: 680px;
+
+    text-align: center;
+    font-size: 250px;
+    font-weight: 600;
+    display: block;
+}
+
+.hi_title {
+    display: none;
+}
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    /* 컨텐츠 */
+.hello_title { 
+    display: none;
+}
+
+.hi_title {
+    width: 100%;
+    font-size: 200px;  
+    display: block;
+    margin-top: 100px;
+}
+/* 배경 */ 
+
+.home_01_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home_01_02_wrap {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hugeinc16.png);
+    box-sizing: border-box;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+}
+
+.home_01_03_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc10_m.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home_01_04_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc14png.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home_01_05_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc2_m.jpg);
+    background-size: cover;
+}
+
+.home_01_06_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home_01_07_wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image:
+        url(../img/hugeinc5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 홈 인덱스 */
+.home_01_index {
+    display: none;
+}
+
+.home_01_index_wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home_01_index_wrap > p {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.home_01_content {
+    width: 100%;
+    height: 100%;
+    padding: 20vh 5vh 5vh 5vh;
+    box-sizing: border-box;
+}
+
+.home_01_content_wrap {
+    width: 80%;
+    height: 60vh;
+}
+
+.content_top_m {
+    display: flex;
+}
+
+.content_top_m p {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.index_line_white_1 {
+    width: 12%;
+    border-bottom: 1px solid white;
+    height: 5px;
+    margin-right: 5%;
+    display: block;
+}
+
+.index_line_black_1 {
+    width: 12%;
+    border-bottom: 1px solid black;
+    height: 5px;
+    margin-right: 5%;
+    display: block;
+}
+
+
+/*
+.home_01_content_wrap>p {
+    font-family: HugeGothic-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+*/
+
+
+.home_01_index_subwrap {
+    width: 100%;
+    height: calc(100% - 22px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.home_01_index_subwrap>h2 {
+    font-family: HugeGothic-Bold;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.line_black {
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin: 5% 0;
+}
+
+.line_white {
+    border-bottom: 1px solid white;
+    width: 25%;
+    margin: 5% 0;
+}
+
+
+.home_01_index_subwrap>p {
+    font-family: Galaxie-Book;
+    font-size: 18px;
+    line-height: 34px;
+    width: 100%;
+    letter-spacing: -0.27504px;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width:400px) {
+
+
+.hi_title {
+    font-size: 150px;
+    display: block;
+    margin-top: 100px;
+}
+
+
+
+
+}
