@@ -339,6 +339,7 @@ nav {
     background-size: 800% 800%;
     animation: logo_animation 2s;
     animation-iteration-count: 1;
+    transition: all 0.5s;
 }
 #logo:hover {
     background: #ea178c; color: white;
@@ -373,6 +374,7 @@ nav {
     left: 0; 
     opacity: 1;
     transition: border 0.25s;
+    pointer-events: none;
 }
 
 @keyframes logo_animation {

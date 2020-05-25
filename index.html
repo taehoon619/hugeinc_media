@@ -95,6 +95,28 @@
                 }
         }
 
+        var prevYscroll = window.pageYOffset
+            window.onscroll = function() {
+        var presentYscroll = window.pageYOffset
+            console.log(presentYscroll)
+        if (document.body.clientWidth > 767) {
+        if (presentYscroll > prevYscroll) {
+            document.getElementById("logo").style = "top: -80px; opacity: 0.5;"
+            } else {
+            document.getElementById("logo").style = "top: 50px; opacity: 1;"
+            } 
+            prevYscroll = presentYscroll
+        } else {
+            if (presentYscroll > prevYscroll) {
+            document.getElementById("logo").style = "top: -60px; opacity : 0.5;"
+            } else {
+            document.getElementById("logo").style = "top: 25px; opacity: 1;"
+            }
+            prevYscroll = presentYscroll
+        }
+    }
+
+
        /* function borderClick() {
             if (header_state == 1) {
                 document.getElementById("border_s").style = "border-bottom:0px solid #f4f4f4; border-top:90px solid #f4f4f4; border-left:50px solid #f4f4f4; border-right:50px solid #f4f4f4"
